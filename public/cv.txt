@@ -1,0 +1,12 @@
+Ce fichier est un placeholder pour le CV au format PDF.
+
+Pour ajouter un véritable CV PDF:
+1. Créez votre CV au format PDF
+2. Remplacez ce fichier par votre CV.pdf
+3. Assurez-vous que le nom du fichier est "cv.pdf"
+4. Mettez à jour les liens dans le fichier pages/about.vue pour pointer vers "/cv.pdf"
+
+Note: Dans une application réelle, vous pourriez également vouloir:
+- Ajouter des métadonnées au PDF
+- Optimiser le PDF pour le web
+- Considérer l'ajout d'une version imprimable en HTML 
