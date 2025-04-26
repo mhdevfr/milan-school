@@ -102,11 +102,4 @@
 </template>
 
 <script setup>
-// Apply auth middleware to this page
-definePageMeta({
-  middleware: ['auth']
-});
-
-// Get user info from auth composable
-const { user } = useAuth();
-</script> 
+</script>

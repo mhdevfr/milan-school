@@ -49,21 +49,4 @@
 </template>
 
 <script setup>
-import { useAuth } from '~/composables/useAuth';
-import { useRouter, useRoute } from 'vue-router';
-
-const { user, isAuthenticated, logout } = useAuth();
-const router = useRouter();
-const route = useRoute();
-
-// Rediriger vers la page de connexion si l'utilisateur n'est pas authentifié
-// et n'est pas déjà sur la page de connexion
-if (process.client && !isAuthenticated.value && route.path !== '/login') {
-  router.push('/login');
-}
-
-const handleLogout = () => {
-  logout();
-  router.push('/login');
-};
 </script> 
