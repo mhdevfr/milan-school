@@ -2,7 +2,7 @@
   <div class="min-h-screen flex flex-col">
     <header class="border-b border-border">
       <div class="container flex h-16 items-center justify-between py-4">
-        <NuxtLink to="/" class="font-bold text-xl">Enzo</NuxtLink>
+        <NuxtLink to="/" class="font-bold text-xl">Milan</NuxtLink>
         <div class="flex items-center gap-6">
           <nav class="flex items-center gap-6">
             <NuxtLink to="/" class="text-sm font-medium transition-colors hover:text-primary">Accueil</NuxtLink>

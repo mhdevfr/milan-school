@@ -9,11 +9,11 @@
           Développeur Full Stack & Étudiant en BTS SIO
         </p>
         <div class="flex flex-wrap gap-4">
-          <a href="/cv.txt" download class="inline-flex h-10 items-center justify-center rounded-md bg-primary px-6 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90">
+          <a href="/cv.pdf" download class="inline-flex h-10 items-center justify-center rounded-md bg-primary px-6 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90">
             Télécharger CV
           </a>
           <a href="https://flink-agency.dev/" target="_blank" class="inline-flex h-10 items-center justify-center rounded-md border border-input bg-background px-6 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground">
-            Mon Portfolio
+            Mes projets personnels 
           </a>
           <a href="#contact" class="inline-flex h-10 items-center justify-center rounded-md border border-input bg-background px-6 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground">
             Me Contacter
@@ -22,7 +22,7 @@
       </div>
       <div class="rounded-2xl border bg-card p-8 shadow-lg">
         <p class="text-lg text-muted-foreground leading-relaxed">
-          Bonjour ! Je suis Milan, 21 ans, un développeur passionné spécialisé dans le développement Full Stack Web et mobile. Actuellement étudiant en BTS SIO (Services Informatiques aux Organisations), je me consacre à la création d'applications innovantes et à l'apprentissage constant de nouvelles technologies.
+          Bonjour ! Je m'appelle Milan, 21 ans, un développeur passionné spécialisé dans le développement Full Stack Web et mobile. Actuellement étudiant en BTS SIO (Services Informatiques aux Organisations), je me consacre à la création d'applications innovantes et à l'apprentissage constant de nouvelles technologies.
         </p>
       </div>
     </div>
@@ -35,7 +35,7 @@
           <div>
             <h4 class="font-medium mb-2">Développement Web</h4>
             <p class="text-muted-foreground">
-              HTML5, CSS3, JavaScript, TypeScript, Vue.js, Nuxt.js, TailwindCSS, GSAP, GraphQL
+              HTML5, CSS3, PHP, JavaScript, TypeScript, Vue.js, Nuxt.js, TailwindCSS, GSAP, GraphQL
             </p>
           </div>
           <div>
@@ -97,7 +97,7 @@
             </div>
             <h3 class="font-medium">Email</h3>
           </div>
-          <p class="text-sm text-muted-foreground">enzo.etudiant@example.com</p>
+          <p class="text-sm text-muted-foreground">milan.herbe@stcharles-stecroix.org</p>
         </div>
 
         <!-- Contact Card - Location -->

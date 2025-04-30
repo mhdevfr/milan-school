@@ -1,13 +1,12 @@
 <template>
   <div class="container mx-auto py-12 px-4 sm:px-6 lg:px-8">
-    <div class="space-y-4 mb-8">
-      <h1 class="text-4xl font-bold tracking-tighter">Projets de Stage</h1>
-      <p class="text-xl text-muted-foreground">
-        Découvrez les projets que j'ai réalisés durant mes stages
-      </p>
-    </div>
-
-    <div class="grid gap-6 sm:grid-cols-2">
+    <div class="flex flex-col gap-6 items-start justify-center w-3/4 mx-auto">
+      <div class="space-y-4 mb-8 flex items-start justify-start flex-col">
+        <h1 class="text-4xl font-bold tracking-tighter">Stages</h1>
+        <p class="text-xl text-muted-foreground">
+          Voici les différents stages que j'ai pu effectuer durant mon BTS SIO.
+        </p>
+      </div>
       <div v-for="project in projects" :key="project.id" class="group relative overflow-hidden rounded-lg border">
         <div class="aspect-video w-full overflow-hidden">
           <img
@@ -67,21 +66,21 @@
 const projects = [
   {
     id: '1',
-    title: 'Les Jolies Mancelles',
-    teamProject: false,
-    date: 'Janvier 2023 - Mars 2023',
-    image: '/mancelles.PNG',
-    description: 'Durant mon stage chez Les Jolies Mancelles, une entreprise locale de savons et cosmétiques artisanaux, j\'ai été chargé de développer une plateforme e-commerce pour les aider à étendre leur activité en ligne.',
-    route: '/LesJoliesMancelles'
+    title: 'Aurion',
+    teamProject: true,
+    date: 'Mai 2024 - Juin 2024',
+    image: '/aurion.PNG',
+    description: 'Durant mon 1er stage chez Aurion, j\'ai été chargé de développer sur des plateformes e-commerce pour les aider à étendre leur activité en ligne.',
+    route: '/aurion'
   },
   {
     id: '2',
-    title: 'Au Coeur Des Artistes',
+    title: 'AGMvision',
     teamProject: true,
-    date: 'Juin 2023 - Août 2023',
-    image: '/coeur.PNG',
-    description: 'Durant mon stage chez Au Coeur Des Artistes, une galerie d\'art locale et centre culturel, j\'ai collaboré avec une équipe pour développer une plateforme numérique permettant de présenter les œuvres des artistes et de gérer les événements culturels.',
-    route: '/AuCoeurDesArtistes'
+    date: 'Janvier 2025 - Février 2025',
+    image: '/agm.PNG',
+    description: 'Durant mon 2eme stage chez Aurion, j\'ai pu consacrée mon temps sur la plateforme e-commerce de la société AGMvision un site spécialisé dans la vente de matériel automobile.',
+    route: '/agm'
   }
 ];
 </script> 
