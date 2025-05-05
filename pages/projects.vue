@@ -7,7 +7,7 @@
       </p>
     </div>
 
-    <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+    <div class="grid gap-6 sm:grid-cols-1 lg:grid-cols-2">
       <div v-for="project in projects" :key="project.id" class="group relative overflow-hidden rounded-lg border">
         <div class="aspect-video w-full overflow-hidden">
           <img
