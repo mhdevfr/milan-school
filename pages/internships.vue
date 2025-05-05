@@ -69,7 +69,7 @@ const projects = [
     title: 'Aurion',
     teamProject: true,
     date: 'Mai 2024 - Juin 2024',
-    image: '/aurion.PNG',
+    image: '/aurion.png',
     description: 'Durant mon 1er stage chez Aurion, j\'ai été chargé de développer sur des plateformes e-commerce pour les aider à étendre leur activité en ligne.',
     route: '/aurion'
   },
@@ -78,7 +78,7 @@ const projects = [
     title: 'AGMvision',
     teamProject: true,
     date: 'Janvier 2025 - Février 2025',
-    image: '/agm.PNG',
+    image: '/agm.png',
     description: 'Durant mon 2eme stage chez Aurion, j\'ai pu consacrée mon temps sur la plateforme e-commerce de la société AGMvision un site spécialisé dans la vente de matériel automobile.',
     route: '/agm'
   }

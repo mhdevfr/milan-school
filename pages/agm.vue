@@ -27,7 +27,7 @@
       <!-- Project Image -->
       <div class="aspect-video overflow-hidden rounded-lg border">
         <img
-          src="/aurion.PNG"
+          src="/aurion.png"
           alt="Aurion"
           class="h-full w-full object-cover"
         />
