@@ -3,7 +3,7 @@
       <!-- Header -->
       <div class="space-y-4">
         <div class="inline-block rounded-lg bg-muted px-3 py-1 text-sm">Projet de Stage</div>
-        <h1 class="text-4xl font-bold tracking-tighter">Au Coeur Des Artistes</h1>
+        <h1 class="text-4xl font-bold tracking-tighter">Aurion</h1>
         <div class="flex items-center gap-2">
           <span class="inline-flex items-center rounded-md bg-primary/10 px-2 py-1 text-xs font-medium text-primary">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-1 h-4 w-4">
@@ -27,7 +27,7 @@
       <!-- Project Image -->
       <div class="aspect-video overflow-hidden rounded-lg border">
         <img
-          src="/coeur.PNG"
+          src="/aurion.png"
           alt="Au Coeur Des Artistes"
           class="h-full w-full object-cover"
         />
@@ -37,8 +37,7 @@
       <div class="space-y-4">
         <h2 class="text-2xl font-bold">Description du Projet</h2>
         <div class="text-muted-foreground">
-          <p>Durant mon stage chez Au Coeur Des Artistes, une galerie d'art locale et centre culturel, j'ai collaboré avec une équipe pour développer une plateforme numérique permettant de présenter les œuvres des artistes et de gérer les événements culturels. Le projet visait à accroître la présence en ligne de la galerie et à simplifier le processus d'organisation des expositions et des ateliers.</p>
-          <p class="mt-4">Les principaux objectifs étaient de créer un site web visuellement impressionnant qui mettait en valeur le travail des artistes, d'implémenter un système de gestion de contenu pour des mises à jour faciles, de développer un système de gestion d'événements pour les ateliers et les expositions, et d'intégrer une fonctionnalité de visite virtuelle de la galerie. Travaillant dans une équipe de trois développeurs, j'étais principalement responsable du développement frontend et de l'implémentation de la galerie virtuelle.</p>
+          <p class="mt-4">Durant mon stage chez Aurion, j'ai pu développer sur des plateformes e-commerce pour les aider à étendre leur activité en ligne. Travaillant dans une équipe de trois développeurs, j'étais principalement responsable du développement frontend et de l'implémentation de la galerie virtuelle.</p>
         </div>
       </div>
   
@@ -47,38 +46,20 @@
         <h2 class="text-2xl font-bold">Technologies Utilisées</h2>
         <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4">
           <div class="flex flex-col items-center space-y-2 rounded-lg border p-4">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-8 w-8">
-              <circle cx="12" cy="12" r="10"></circle>
-              <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
-              <line x1="12" y1="17" x2="12.01" y2="17"></line>
-            </svg>
-            <span class="text-sm font-medium">Nuxt 3</span>
+            <Icon name="logos:nuxt" class="h-8 w-8" />
+            <span class="text-sm font-medium">Nuxt 2/3</span>
           </div>
           <div class="flex flex-col items-center space-y-2 rounded-lg border p-4">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-8 w-8">
-              <line x1="12" y1="2" x2="12" y2="6"></line>
-              <line x1="12" y1="18" x2="12" y2="22"></line>
-              <line x1="4.93" y1="4.93" x2="7.76" y2="7.76"></line>
-              <line x1="16.24" y1="16.24" x2="19.07" y2="19.07"></line>
-              <line x1="2" y1="12" x2="6" y2="12"></line>
-              <line x1="18" y1="12" x2="22" y2="12"></line>
-              <line x1="4.93" y1="19.07" x2="7.76" y2="16.24"></line>
-              <line x1="16.24" y1="7.76" x2="19.07" y2="4.93"></line>
-            </svg>
-            <span class="text-sm font-medium">Nuxt Studio</span>
+            <Icon name="logos:vue" class="h-8 w-8" />
+            <span class="text-sm font-medium">Vue 2/3</span>
           </div>
           <div class="flex flex-col items-center space-y-2 rounded-lg border p-4">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-8 w-8">
-              <path d="M2 16.1A5 5 0 0 1 5.9 20M2 12.05A9 9 0 0 1 9.95 20M2 8V6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-6"></path>
-              <line x1="2" y1="20" x2="2" y2="20"></line>
-            </svg>
-            <span class="text-sm font-medium">Nuxt Content</span>
+            <Icon name="logos:tailwindcss" class="h-8 w-20" />
+            <span class="text-sm font-medium">Tailwind / Bootstrap</span>
           </div>
           <div class="flex flex-col items-center space-y-2 rounded-lg border p-4">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-8 w-8">
-              <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
-            </svg>
-            <span class="text-sm font-medium">Tailwind CSS</span>
+            <Icon name="logos:axios" class="h-8 w-8" />
+            <span class="text-sm font-medium">API Rest</span>
           </div>
         </div>
       </div>
@@ -150,7 +131,7 @@
             <p class="text-center text-sm text-muted-foreground">
               Documentation détaillée de la plateforme numérique, incluant l'implémentation de la galerie virtuelle 3D et du système de gestion de contenu.
             </p>
-            <a href="#" class="inline-flex items-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow hover:bg-primary/90">
+            <a href="https://www.canva.com/design/DAGGDvY4NSc/ghnxZVd1foHMY_jSv1fQDQ/view?utm_content=DAGGDvY4NSc&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=ha0fcec8c2c" class="inline-flex items-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow hover:bg-primary/90">
               Voir la Documentation PDF
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-2 h-4 w-4">
                 <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
@@ -164,26 +145,116 @@
   
       <!-- Project Link -->
       <div class="space-y-4">
-        <h2 class="text-2xl font-bold">Lien du Projet</h2>
-        <div class="rounded-lg border p-6">
-          <div class="flex flex-col items-center space-y-4">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-12 w-12 text-primary">
-              <circle cx="12" cy="12" r="10"></circle>
-              <line x1="2" y1="12" x2="22" y2="12"></line>
-              <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
-            </svg>
-            <h3 class="text-lg font-semibold">Visiter le Site du Projet</h3>
-            <p class="text-center text-sm text-muted-foreground">
-              La plateforme numérique est maintenant utilisée par Au Coeur Des Artistes pour leurs expositions et événements.
-            </p>
-            <a href="https://www.aucoeurdesartistes.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow hover:bg-primary/90">
-              Visiter le Site
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-2 h-4 w-4">
-                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
-                <polyline points="15 3 21 3 21 9"></polyline>
-                <line x1="10" y1="14" x2="21" y2="3"></line>
+        <h2 class="text-2xl font-bold">Projets Réalisés</h2>
+        <div class="grid gap-6 sm:grid-cols-2">
+          <div class="rounded-lg border p-6">
+            <div class="flex flex-col items-center space-y-4">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-12 w-12 text-primary">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="2" y1="12" x2="22" y2="12"></line>
+                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
               </svg>
-            </a>
+              <h3 class="text-lg font-semibold">Bati Négoce</h3>
+              <p class="text-center text-sm text-muted-foreground">
+                Plateforme e-commerce spécialisée dans les matériaux de construction et l'outillage.
+              </p>
+              <a href="https://www.batinegoce.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow hover:bg-primary/90">
+                Visiter le Site
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-2 h-4 w-4">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="rounded-lg border p-6">
+            <div class="flex flex-col items-center space-y-4">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-12 w-12 text-primary">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="2" y1="12" x2="22" y2="12"></line>
+                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+              </svg>
+              <h3 class="text-lg font-semibold">AGM Vision</h3>
+              <p class="text-center text-sm text-muted-foreground">
+                Boutique en ligne spécialisée dans l'éclairage LED pour véhicules.
+              </p>
+              <a href="https://www.agmvision.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow hover:bg-primary/90">
+                Visiter le Site
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-2 h-4 w-4">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="rounded-lg border p-6">
+            <div class="flex flex-col items-center space-y-4">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-12 w-12 text-primary">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="2" y1="12" x2="22" y2="12"></line>
+                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+              </svg>
+              <h3 class="text-lg font-semibold">Top Sellerie Auto</h3>
+              <p class="text-center text-sm text-muted-foreground">
+                Site e-commerce dédié à la sellerie automobile et aux accessoires de voiture.
+              </p>
+              <a href="https://www.topsellerieauto.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow hover:bg-primary/90">
+                Visiter le Site
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-2 h-4 w-4">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="rounded-lg border p-6">
+            <div class="flex flex-col items-center space-y-4">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-12 w-12 text-primary">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="2" y1="12" x2="22" y2="12"></line>
+                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+              </svg>
+              <h3 class="text-lg font-semibold">Marceau Inès</h3>
+              <p class="text-center text-sm text-muted-foreground">
+                Site vitrine pour un artiste, présentant ses œuvres et son parcours.
+              </p>
+              <a href="https://www.marceau-ines.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow hover:bg-primary/90">
+                Visiter le Site
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-2 h-4 w-4">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="rounded-lg border p-6">
+            <div class="flex flex-col items-center space-y-4">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-12 w-12 text-primary">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="2" y1="12" x2="22" y2="12"></line>
+                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+              </svg>
+              <h3 class="text-lg font-semibold">Auberdog</h3>
+              <p class="text-center text-sm text-muted-foreground">
+                Plateforme e-commerce spécialisée dans les produits pour chiens.
+              </p>
+              <a href="https://www.auberdog.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow hover:bg-primary/90">
+                Visiter le Site
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-2 h-4 w-4">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+            </div>
           </div>
         </div>
       </div>

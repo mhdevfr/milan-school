@@ -99,8 +99,8 @@ const projects = [
     title: 'Application Lourde c#',
     category: 'Application Bureau',
     date: '2025',
-    image: '/application_lourde.png',
-    description: 'Application lourde en C# avec une base de données SQL pour une gestion administrative d\'une entreprise...',
+    image: '/lourd.png',
+    description: 'Application lourde en C# avec une base de données SQL pour une gestion administrative du projet HiJobs Web..',
     technologies: ['C#', 'SQL', 'PhpMyAdmin'],
     route: '/AP5'
   }

@@ -83,7 +83,7 @@
             </div>
             <h3 class="font-medium">Téléphone</h3>
           </div>
-          <p class="text-sm text-muted-foreground">+33 6 12 34 56 78</p>
+          <p class="text-sm text-muted-foreground">+33 6 28 76 34 58</p>
         </div>
 
         <!-- Contact Card - Email -->

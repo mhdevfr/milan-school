@@ -77,6 +77,8 @@
             <Icon name="devicon:express" class="w-10 h-10" ></Icon>
             <Icon name="devicon:mysql" class="w-10 h-10" ></Icon>
             <Icon name="devicon:postgresql" class="w-10 h-10" ></Icon>
+            <Icon name="devicon:mongodb" class="w-10 h-10" ></Icon>
+            <Icon name="devicon:supabase" class="w-10 h-10" ></Icon>
           </div>
         </div>
         <div class="rounded-lg border bg-card p-6 shadow-sm">
@@ -88,13 +90,17 @@
                 <path d="M2 12h20"></path>
               </svg>
             </div>
-            <h3 class="font-semibold">Design UI/UX</h3>
+            <h3 class="font-semibold">Outils</h3>
           </div>
           <p class="mt-3 text-sm text-muted-foreground">
-            Conception d'interfaces utilisateur intuitives et esthétiques pour une expérience utilisateur optimale.
+            Outils de développement et de gestion de projet.
           </p>
           <div class="flex items-center w-full justify-around mt-4">
             <Icon name="devicon:figma" class="w-10 h-10" ></Icon>
+            <Icon name="devicon:git" class="w-10 h-10" ></Icon>
+            <Icon name="devicon:github" class="w-10 h-10" ></Icon>
+            <Icon name="devicon:gitlab" class="w-10 h-10" ></Icon>
+            
           </div>
         </div>
       </div>
