@@ -93,7 +93,6 @@ const navItems = [
   { label: 'Accueil', href: '/' },
   { label: 'Projets', href: '/projects' },
   { label: 'Stages', href: '/internships' },
-  { label: 'À propos', href: '/about' },
   { label: 'Veille Technologique', href: '/veille-technologique' },
   { label: 'CV', href: '/cv' },
 ];

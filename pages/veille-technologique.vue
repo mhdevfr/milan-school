@@ -3,7 +3,8 @@
     <div class="relative">
       <h1 class="text-4xl font-bold mb-4">Veille Technologique</h1>
       <p class="text-muted-foreground max-w-2xl">
-        Suivi des dernières avancées et tendances dans l'écosystème Vue.js et Nuxt.js.
+        Via ma veille technologique j'ai pu me mettre à l'aise avec Vue.js et Nuxt.js. et donc développer des projets personnels.
+        Visitez le site de <a href="https://flink-agency.dev/" target="_blank" class="text-primary underline-offset-2 decoration-blue-500 underline">Flink Agency</a> pour en savoir plus sur mes projets personnels.
       </p>
     </div>
     

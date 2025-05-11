@@ -3,7 +3,14 @@
     <!-- Header -->
     <div class="space-y-4">
       <div class="inline-block rounded-lg bg-muted px-3 py-1 text-sm">Web App</div>
-      <h1 class="text-4xl font-bold tracking-tighter">Site Web HiJobs</h1>
+      <h1 class="text-4xl font-bold tracking-tighter flex justify-between ">Site Web HiJobs
+
+        <a href="https://github.com/mhdevfr/php-hijobs" target="_blank"  class="inline-flex font-sans items-center rounded-d  px-3 rounded-lg py-2 text-sm underline-offset-2 underline hover:bg-primary/90">
+          <Icon name="mdi:github" class="h-5 w-5 mr-2" />
+          Voir le code source
+        </a>
+      </h1>
+      
       <div class="flex flex-wrap items-center gap-2">
         <span class="inline-flex items-center rounded-md bg-muted px-2 py-1 text-xs font-medium">PHP</span>
         <span class="inline-flex items-center rounded-md bg-muted px-2 py-1 text-xs font-medium">Tailwind CSS</span>
@@ -94,7 +101,7 @@
             <h3 class="font-semibold">Développer une solution applicative</h3>
           </div>
           <p class="mt-2 text-sm text-muted-foreground">
-            Conception et développement d'une application web complète pour la gestion d'une AMAP avec PHP et MySQL.
+            Conception et développement d'une application web complète en équipe avec PHP et MySQL.
           </p>
         </div>
         <div class="rounded-lg border p-4">
@@ -105,7 +112,7 @@
             <h3 class="font-semibold">Gérer le patrimoine informatique</h3>
           </div>
           <p class="mt-2 text-sm text-muted-foreground">
-            Gestion des ressources numériques et mise en place d'une base de données optimisée pour les besoins spécifiques de l'AMAP.
+            Hijobs a été développé en équipe de 3 personnes, nous avons dû gérer les incidents et les demandes d'évolution.
           </p>
         </div>
         <div class="rounded-lg border p-4">
@@ -191,7 +198,9 @@
       <div class="w-full max-w-4xl border rounded-lg shadow-sm overflow-hidden" :style="{ transform: `scale(${scale})`, transformOrigin: 'top center' }">
         <ClientOnly>
           <div v-if="isClient">
-            <VuePdfEmbed :source="pdfUrl" :page="1" :width="width" />
+            <VuePdfEmbed source="/backlog.pdf" :page="1" :width="width" />
+            <VuePdfEmbed source="/userstory.pdf" :page="1" :width="width" />
+
           </div>
           <div v-else class="flex items-center justify-center h-[600px] bg-muted">
             <p>Chargement de la visionneuse PDF...</p>
@@ -254,7 +263,7 @@
 import { ref, onMounted } from 'vue';
 import VuePdfEmbed from 'vue-pdf-embed';
 
-const pdfUrl = '/docs/AP4-documentation.pdf';
+const pdfUrl = '/backlog.pdf';
 const scale = ref(1);
 const width = ref(800);
 const isClient = ref(false);

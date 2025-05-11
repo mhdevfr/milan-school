@@ -90,10 +90,8 @@ const projects = [
     image: '/hijobs.png',
     description: 'Un site web de recherche d\'emploi pour les étudiants, avec un système de chat et de messagerie...',
     technologies: ['PHP', 'PhpMyAdmin', 'Tailwind CSS', 'Javascript'],
-    route: '/AP2'
+    route: '/AP4'
   },
-
- 
   {
     id: '5',
     title: 'Application Lourde c#',

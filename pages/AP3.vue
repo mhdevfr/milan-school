@@ -3,7 +3,12 @@
     <!-- Header -->
     <div class="space-y-4">
       <div class="inline-block rounded-lg bg-muted px-3 py-1 text-sm">Web App</div>
-      <h1 class="text-4xl font-bold tracking-tighter">Projet Personnages</h1>
+      <h1 class="text-4xl font-bold tracking-tighter flex justify-between">Projet Personnages
+        <a href="https://github.com/mhdevfr/ap-personnages" target="_blank"  class="inline-flex font-sans items-center rounded-d  px-3 rounded-lg py-2 text-sm underline-offset-2 underline hover:bg-primary/90">
+          <Icon name="mdi:github" class="h-5 w-5 mr-2" />
+          Voir le code source
+        </a>
+      </h1>
       <div class="flex flex-wrap items-center gap-2">
         <span class="inline-flex items-center rounded-md bg-muted px-2 py-1 text-xs font-medium">PHP</span>
         <span class="inline-flex items-center rounded-md bg-muted px-2 py-1 text-xs font-medium">Bootstrap</span>
