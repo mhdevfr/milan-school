@@ -38,7 +38,7 @@
         <h2 class="text-2xl font-bold">Description du Projet</h2>
         <div class="text-muted-foreground">
             <p>
-                Durant ce second stage chez Aurion j'ai pu me spécifier dans le développement et l'entretien quotidien d'une boutique e-commerce, la plus importante d'Aurion.
+                Durant ce second stage chez Aurion j'ai pu me spécifier dans le développement et l'entretien quotidien d'une boutique e-commerce la boutique AGMVision, la boutique la plus importante d'Aurion et un de leurs plus gros clients.
             </p>
         </div>
       </div>
@@ -82,7 +82,7 @@
               <h3 class="font-semibold">Développer la présence en ligne</h3>
             </div>
             <p class="mt-2 text-sm text-muted-foreground">
-              Participation à la gestion d'un service de présence en ligne en développant une plateforme numérique pour présenter les œuvres des artistes.
+                Entretien quotidien avec le client pour améliorer la plateforme et ajouter de nouvelles fonctionnalités.
             </p>
           </div>
           <div class="rounded-lg border p-4">
@@ -93,7 +93,7 @@
               <h3 class="font-semibold">Travailler en mode projet</h3>
             </div>
             <p class="mt-2 text-sm text-muted-foreground">
-              Participation à un projet informatique en équipe avec une répartition des tâches, des revues de code et une résolution collaborative des problèmes.
+                Travail en équipe pour répondre aux besoins du client.
             </p>
           </div>
           <div class="rounded-lg border p-4">
@@ -104,7 +104,7 @@
               <h3 class="font-semibold">Développer une solution applicative</h3>
             </div>
             <p class="mt-2 text-sm text-muted-foreground">
-              Conception et développement d'environnements 3D interactifs pour le web et mise en place d'une galerie virtuelle avec Nuxt 3.
+                Développement de diverses fonctionnalités pour la plateforme e-commerce.
             </p>
           </div>
           <div class="rounded-lg border p-4">
@@ -115,7 +115,7 @@
               <h3 class="font-semibold">Organiser son développement professionnel</h3>
             </div>
             <p class="mt-2 text-sm text-muted-foreground">
-              Développement de compétences techniques et collaboratives à travers l'apprentissage de nouveaux frameworks et méthodologies de travail.
+                Via différents média comme gitlab, slack, linkedin j'ai pu fournir des informations sur mon travail et mes compétences.
             </p>
           </div>
         </div>
@@ -135,7 +135,7 @@
             </svg>
             <h3 class="text-lg font-semibold">Documentation du Projet</h3>
             <p class="text-center text-sm text-muted-foreground">
-              Documentation détaillée de la plateforme numérique, incluant l'implémentation de la galerie virtuelle 3D et du système de gestion de contenu.
+                Voir la documentation des différentes tâches réalisées dans le projet en PDF.
             </p>
             <a href="https://www.canva.com/design/DAGFgw4bhJs/kSXR1s1MMP6PI0I8dU1vHQ/view?utm_content=DAGFgw4bhJs&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h381faa0ba4" class="inline-flex items-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow hover:bg-primary/90">
               Voir la Documentation PDF

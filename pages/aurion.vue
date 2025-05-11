@@ -76,7 +76,7 @@
               <h3 class="font-semibold">Développer la présence en ligne</h3>
             </div>
             <p class="mt-2 text-sm text-muted-foreground">
-              Participation à la gestion d'un service de présence en ligne en développant une plateforme numérique pour présenter les œuvres des artistes.
+                Entretien et fixations quotidiennes avec les clients pour améliorer leurs plateformes e-commerce et leurs ventes.
             </p>
           </div>
           <div class="rounded-lg border p-4">
@@ -87,7 +87,7 @@
               <h3 class="font-semibold">Travailler en mode projet</h3>
             </div>
             <p class="mt-2 text-sm text-muted-foreground">
-              Participation à un projet informatique en équipe avec une répartition des tâches, des revues de code et une résolution collaborative des problèmes.
+                Travail en équipe pour répondre aux besoins du client.
             </p>
           </div>
           <div class="rounded-lg border p-4">
@@ -98,7 +98,7 @@
               <h3 class="font-semibold">Développer une solution applicative</h3>
             </div>
             <p class="mt-2 text-sm text-muted-foreground">
-              Conception et développement d'environnements 3D interactifs pour le web et mise en place d'une galerie virtuelle avec Nuxt 3.
+                Développement de diverses fonctionnalités pour les plateformes e-commerce.
             </p>
           </div>
           <div class="rounded-lg border p-4">
@@ -109,7 +109,7 @@
               <h3 class="font-semibold">Organiser son développement professionnel</h3>
             </div>
             <p class="mt-2 text-sm text-muted-foreground">
-              Développement de compétences techniques et collaboratives à travers l'apprentissage de nouveaux frameworks et méthodologies de travail.
+                Via différents média comme gitlab, slack, linkedin j'ai pu fournir des informations sur mon travail et mes compétences.
             </p>
           </div>
         </div>
